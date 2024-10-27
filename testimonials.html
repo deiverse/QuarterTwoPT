@@ -50,6 +50,7 @@
             display: flex;
             margin: 20px;
             flex-grow: 1;
+            flex-wrap: wrap;  
         }
 
         .sidebar {
@@ -110,6 +111,22 @@
             color: #FFD700;  
             margin-top: 5px;
             text-align: left;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;  
+                margin-bottom: 20px;  
+            }
+
+            .content {
+                width: 100%; 
+            }
+
+            nav ul li {
+                display: block;  
+                margin-bottom: 10px;  
+            }
         }
     </style>
 </head>
