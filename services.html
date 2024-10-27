@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Dr. Majadeah Abdullah</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;  
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3DD;  
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #4B4B4B;   
+        }
+
+        header {
+            background-color: #D4B9DA;  
+            color: white;
+            padding: 3px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em; 
+        }
+
+        nav {
+            background-color: #B799C1;  
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content {
+            margin: 40px 60px;  
+            padding: 15px;
+            background-color: #FFF5E1;  
+            border-radius: 8px;
+            flex-grow: 1;
+        }
+
+        h2 {
+            font-size: 28px; 
+            font-weight: bold;
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background-color: white;
+            width: 30%;   
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+            border: 1px solid #ddd;
+        }
+
+        .service-card h3 {
+            font-size: 20px;  
+            font-weight: bold;
+            color: #4B4B4B;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .service-card button {
+            background-color: #F4BFBF;  
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .service-card button:hover {
+            background-color: #e09898;  
+        }
+
+        footer {
+            background-color: #D4B9DA;  
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        footer a {
+            color: #4B4B4B;  
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;  
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Services</h1>
+        <p>Provided by The Smile Studio</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>Explore our Dental Services</h2>
+
+        <div class="services-container">
+             
+            <div class="service-card">
+                <h3>Teeth Whitening</h3>
+                <p>Brighten your smile and remove discoloration with our professional teeth whitening service.</p>
+                <button onclick="window.location.href='teeth-whitening.html'">Learn More</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Dental Implants</h3>
+                <p>Get a permanent solution for missing teeth with our high-quality dental implants.</p>
+                <button onclick="window.location.href='dental-implants.html'">Learn More</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Root Canal Therapy</h3>
+                <p>We offer root canal treatments to remove damaged pulp and relieve pain effectively.</p>
+                <button onclick="window.location.href='root-canal.html'">Learn More</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Pediatric Dentistry</h3>
+                <p>Specialized care for children to ensure their dental health in a friendly environment.</p>
+                <button onclick="window.location.href='pediatric-dentistry.html'">Learn More</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Cosmetic Dentistry</h3>
+                <p>We offer veneers, bonding, and other cosmetic treatments to enhance your smile.</p>
+                <button onclick="window.location.href='cosmetic-dentistry.html'">Learn More</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Orthodontic Dentistry</h3>
+                <p>Correct misaligned teeth and jaws with our orthodontic services for a healthier smile.</p>
+                <button onclick="window.location.href='orthodontics.html'">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Follow Dr. Majadeah on <a href="https://www.facebook.com/majaaaaaaaadeahhhhhhh">Facebook</a> | <a href="https://github.com/deiverse">GitHub</a></p>
+        <p>Contact us: +63 935 984 7855 | abdullahmaja13@gmail.com</p>
+    </footer>
+
+</body>
+</html>

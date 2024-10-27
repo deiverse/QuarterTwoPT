@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smile Studio - Dr. Majadeah Abdullah</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3DD;   
+            color: #4B4B4B;   
+        }
+
+        header {
+            background-color: #D4B9DA;   
+            color: white;
+            padding: 40px;  
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.3em;   
+            font-family: 'Times New Roman', serif;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #B799C1;   
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 20px;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 600px;
+            padding: 15px;
+            box-sizing: border-box;
+            margin: 0 20px;
+        }
+
+        .content h2 {
+            font-size: 3em;   
+            font-family: 'Georgia', serif;
+            margin-bottom: 20px;
+            text-align: left;   
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;   
+        }
+
+        .image-container {
+            width: 100%;
+            max-width: 600px;
+            padding: 15px;
+            box-sizing: border-box;
+            margin: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            background-color: #B799C1;  
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 30px;  
+        }
+
+        .button-container button:hover {
+            background-color: #8A6D92;  
+        }
+
+        .footer {
+            background-color: #D4B9DA;  
+            color: white;
+            text-align: center;
+            padding: 21px;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #4B4B4B; /* Light black grayish shade for footer links */
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline; /* Optional: underline on hover */
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;  
+            }
+
+            .content, .image-container {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 20px;  
+            }
+
+            .content h2 {
+                font-size: 2em;  
+            }
+
+            .button-container button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dr. Majadeah Abdullah</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="content">
+            <h2>Reconnect with Your Smile</h2>
+            <p>Dr. Majadeah Abdullah provides top-tier dental care with a focus on patients' comfort and satisfaction.</p>
+            <p>In our clinic, we offer a wide range of services including cosmetic dentistry, pediatric dentistry, and much more.</p>
+            <div class="button-container">
+                <button onclick="location.href='contact.html'">Book Now</button> 
+            </div>
+        </section>
+
+        <div class="image-container">
+            <img src="https://i.imghippo.com/files/7eTxz1729420602.jpg" alt="Clinic Image">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Follow Dr. Majadeah on <a href="https://www.facebook.com/majaaaaaaaadeahhhhhhh">Facebook</a> | <a href="https://github.com/deiverse">GitHub</a></p>
+        <p>Call us at: 0935 984 7855 | Email: abdullahmaja13@gmail.com</p>
+    </footer>
+
+</body>
+</html>

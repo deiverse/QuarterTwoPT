@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dr. Majadeah Abdullah</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3DD;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #4B4B4B;  
+        }
+
+        header {
+            background-color: #D4B9DA;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #B799C1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px 60px;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .text {
+            flex: 1;
+            padding-left: 40px;
+            font-size: 18px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .text h2 {
+            font-size: 24px;
+        }
+
+        .image {
+            flex-shrink: 0;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #D4B9DA;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+        }
+
+        footer a {
+            color: #4B4B4B;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .text {
+                padding-left: 0;
+                padding-top: 20px;
+            }
+
+            .image {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Dr. Majadeah Abdullah</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="image">
+            <img src="https://i.imghippo.com/files/Ue0EJ1729328728.jpg" alt="Dr. Majadeah Abdullah">
+        </div>
+        <div class="text">
+            <h2>About Me</h2>
+            <p>Hi! I am Dr. Majadeah Abdullah, a highly experienced dentist specializing in cosmetic, restorative, orthodontic, and pediatric dentistry. With over 5 years of experience, I am committed to providing exceptional care to all my patients. I graduated from Adventist University of the Philippines with a Doctor of Dental Surgery (DDS) degree and I also attended numerous seminars and workshops to stay up-to-date with the latest dental practices.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Follow Dr. Majadeah on <a href="https://www.facebook.com/majaaaaaaaadeahhhhhhh">Facebook</a> | <a href=https://github.com/deiverse">GitHub</a></p>
+        <p>Contact us: +63 935 984 7855 | abdullahmaja13@gmail.com</p>
+    </footer>
+
+</body>
+</html>
